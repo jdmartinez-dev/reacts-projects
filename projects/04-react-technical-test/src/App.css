@@ -8,8 +8,8 @@ main {
     font-family: system-ui;
 }
 
-
 /* Row */
+/* 
 section {
     display: flex;
     justify-content: space-between;
@@ -24,4 +24,5 @@ section p {
 section img {
     max-width: 320px;
     height: auto;
-}
+}  */
+

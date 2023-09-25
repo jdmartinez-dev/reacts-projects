@@ -57,3 +57,28 @@ root.render(<h1>Hello, world!</h1>)
   "extends": "./node_modules/standard/eslintrc.json"
 }
 ```
+#### Testing Básico
+- Iniciaremos con pruebas básicas del app
+```bash
+npm init playwright@latest
+```
+
+```bash
+Need to install the following packages:
+  create-playwright@1.17.130
+Ok to proceed? (y) y
+```
+
+```bash
+Initializing project in '.'
+√ Do you want to use TypeScript or JavaScript? · JavaScript
+√ Where to put your end-to-end tests? · tests
+√ Add a GitHub Actions workflow? (y/N) · false
+√ Install Playwright browsers (can be done manually via 'npx playwright - - install')? (Y/n) · true
+```
+
+- Creamos nuestro primer ```Test``` y lo ejecutamos
+```bash
+npx playwright test
+npx playwright show-report
+```
